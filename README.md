@@ -21,8 +21,18 @@ isi deskripsi project yang dibuat terlebih dahulu, lalu install modul **express*
 ```
 
 tambahkan require pada main.js
-sehingga modul express dapat dipanggil. Harus diingat kalau require harus ada *sebelum* dipanggil. 
+sehingga modul express dapat dipanggil. Harus diingat kalau require harus ada *sebelum* dipanggil.
 ```
 var express = require('express');
 var app = require('express')();
+
+app.get('/', function (req, res) { // interaksi dengan http GET
+  res.send('Hello World!');
+});
 ```
+coba jalankan main.js menggunakan nodejs
+
+```
+>node main.js
+```
+tidak akan terjadi apa- apa karena server tidak mendengarkan/ listen ke port yang harus ditentukan
