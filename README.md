@@ -21,7 +21,7 @@ isi deskripsi project yang dibuat terlebih dahulu, lalu install modul **express*
 ```
 
 tambahkan require pada main.js
-sehingga modul express dapat dipanggil. Harus diingat kalau require harus ada *sebelum* dipanggil. 
+sehingga modul express dapat dipanggil. Harus diingat kalau require harus ada *sebelum* dipanggil.
 ```
 var express = require('express');
 var app = require('express')();
