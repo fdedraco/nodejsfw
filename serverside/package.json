@@ -1,0 +1,11 @@
+{
+  "name": "nodejsserver",
+  "version": "0.0.1",
+  "description": "demo development server nodejs untuk aplikasi iot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fathin luqman tantowi",
+  "license": "SEE LICENSE IN LICENSE.md"
+}
